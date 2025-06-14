@@ -1,16 +1,28 @@
-📚 Library Management System (Java Console App)
+# 📚 Library Management System (Java Console App)
+
 A simple Java console application to manage a library system with login, registration, and book management.
 
-🔹 Features
-User & Admin login
-Register new users
-View, search, borrow, return books
-Admin: Add books, view users
-🔹 Folder Structure
-LibraryManagement/ ├── Main.java ├── Manager/ │ ├── LibraryManager.java │ └── LoginManager.java ├── model/ │ ├── Book.java │ └── User.java
+## 🔹 Features
+- User & Admin login
+- Register new users
+- View, search, borrow, return books
+- Admin: Add books, view users
 
-🔹 How to Run
+## 🔹 Folder Structure
+LibraryManagement/
+├── Main.java
+├── Manager/
+│ ├── LibraryManager.java
+│ └── LoginManager.java
+├── model/
+│ ├── Book.java
+│ └── User.java
+
+css
+Copy
+Edit
+
+## 🔹 How to Run
+```bash
 javac Main.java Manager/.java model/.java
-
-
 java Main
